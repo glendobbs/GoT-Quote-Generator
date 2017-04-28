@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="src/styles/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="quotewrapper" class="col-md-6 col-xs-10">
+          <h2 id="quote"></h2>
+          <h6 id="character"></h6>
+          <button id="tweet" class="ui button">
+            <a id="tweetbutton" class="button" target="_blank">
+              <i class="twitter icon"></i>
+            </a>
+          </button>
+          <button id="newQuote" class="ui button">New Quote</button>
+        </div>
+      </div>
+      <div id="footer">
+        Created by A G Dobbs
+      </div>
+    </div>
+    <script src="src/js/jquery-3.2.1.min.js"></script>
+    <script src="src/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="src/js/quotegen.js"></script>
+  </body>
+</html>

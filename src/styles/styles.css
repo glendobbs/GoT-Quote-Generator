@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+#quotewrapper {
+  background: white;
+  height: auto;
+  width: 80%;
+  margin: 200px auto 0 auto;
+  border-radius: 3px;
+  padding: 30px 30px 60px 30px;
+}
+
+h6 {
+  font-weight: 400;
+  text-align: right;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+button#newQuote {
+  color: white;
+  font-weight: 400;
+  float: right;
+}
+
+button#tweet,
+#tweetbutton {
+  color: white;
+  float: left;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:30px;
+}
